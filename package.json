@@ -1,0 +1,15 @@
+{
+  "name": "in-english",
+  "version": "1.0.0",
+  "description": "Forgotten your bitcoin wallet address before? Yeah, well, you're not a robot. Perhaps these english words will make it easier for you...",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node src/generate-dictionary.js",
+    "toReadable": "node src/transform.js"
+  },
+  "author": "Noah Tatko",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
