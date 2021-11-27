@@ -12,7 +12,7 @@ const main = () => {
         const chunks = address.match(/.{1,3}/g)
         const words = chunks.map(chunk => dictionary[chunk]).join(' ')
 
-        console.log("chunks", chunks, words)
+        console.log("chunks", words)
     }
 }
 
