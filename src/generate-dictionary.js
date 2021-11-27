@@ -23,7 +23,7 @@ const main = () => {
         const words = data.split('\n')
             .filter(word => !word.includes("'") && !word.includes('-'))
             .filter(word => word.length > 1)
-            .map(string => string.trim())
+            .map(string => string.trim().toLowerCase())
             .reduce((acc, word) => acc.includes(word) ? acc : acc.concat(word), [])
 
             console.log("words length", words.length)

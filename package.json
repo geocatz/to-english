@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "generate": "node src/generate-dictionary.js",
-    "toReadable": "node src/transform.js"
+    "readable": "node src/toHuman.js",
+    "encode": "node src/toMachine.js"
   },
   "author": "Noah Tatko",
   "license": "ISC",
